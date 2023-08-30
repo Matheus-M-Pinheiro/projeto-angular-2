@@ -1,0 +1,15 @@
+#main{
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+
+  .contSidenav{
+    width: 250px;
+    height: 100vh;
+    max-height: 100vh;
+  }
+  .contConteudo{
+    width: calc(100% - 290px);
+    padding: 20px;
+  }
+}

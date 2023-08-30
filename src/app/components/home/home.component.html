@@ -1,0 +1,37 @@
+<section class="content">
+
+  <div class="login">
+
+    <h1>
+      Login
+    </h1>
+
+    <form [formGroup]="formLogin">
+
+      <div class="contInput">
+        <label>
+          <span>
+            Username
+          </span>
+          <input type="text" formControlName="user">
+        </label>
+      </div>
+
+      <div class="contInput">
+        <label>
+          <span>
+            Senha
+          </span>
+          <input type="password" formControlName="pass">
+        </label>
+      </div>
+
+    </form>
+
+    <button type="button" (click)="login()" [disabled]="this.formLogin.status == 'INVALID'">
+      Entrar
+    </button>
+
+  </div>
+
+</section>

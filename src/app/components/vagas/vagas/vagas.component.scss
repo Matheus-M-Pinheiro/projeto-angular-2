@@ -1,0 +1,14 @@
+.vagas{
+  display: flex;
+  flex-direction: row;
+  gap: 20px 5%;
+  flex-wrap: wrap;
+
+  .vaga{
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 12px;
+    width: calc( (100% - 10%) / 3 );
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,12 @@
+<section class="vagas">
+
+  <ng-container  *ngFor="let vaga of vagas">
+    <div class="vaga" routerLink="/vagas/questionario/{{ vaga.id }}">
+      <h3>
+        {{ vaga.vaga }}
+      </h3>
+    </div>
+
+  </ng-container>
+
+</section>

@@ -1,0 +1,45 @@
+.sidenav {
+  width: calc(100% - 20px);
+  background-color: #1E1E1E;
+  height: calc(100vh - 50px);
+  max-height: 100vh;
+  padding: 25px 10px;
+
+  .logo {
+    width: 90%;
+    display: block;
+    margin: auto;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin-top: 50px;
+
+    li {
+      display: block;
+
+      button {
+        padding: 15px 0;
+        font-family: 'Roboto';
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 32px;
+        color: #FFFFFF;
+        text-align: center;
+        width: 100%;
+        border: none;
+        background-color: transparent;
+        border-radius: 12px;
+        cursor: pointer;
+      }
+      button.ativo{
+        background-color: #D22730;
+      }
+    }
+  }
+}

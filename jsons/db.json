@@ -1,0 +1,414 @@
+{
+  "roupas": [
+    {
+      "id": 1,
+      "produto": "Camiseta Relaxed Em Algodão Com Gola Média",
+      "descricao": "Camiseta relaxed masculina, confeccionada em algodão mais sustentável, com gola média, mangas curtas, cavas deslocadas e sem estampa.",
+      "estoque": [
+        {
+          "tamanho": "P",
+          "quantidade": 50
+        },
+        {
+          "tamanho": "M",
+          "quantidade": 100
+        },
+        {
+          "tamanho": "G",
+          "quantidade": 50
+        }
+      ],
+      "imagem": [
+        {
+          "caminho": "https://img.lojasrenner.com.br/item/780046130/large/12.jpg",
+          "destaque": true
+        },
+        {
+          "caminho": "https://img.lojasrenner.com.br/item/780046130/large/13.jpg",
+          "destaque": false
+        }
+      ],
+      "preco": 99.90,
+      "parcelas": [1,2,3,4],
+      "genero": "Masculino",
+      "categoria": 1,
+      "colecao": 1,
+      "avaliacoes": [
+        {
+          "idUsuario": 1,
+          "comentario": "Tecido excelente e ótimo caimento",
+          "estrelas": 5
+        }
+      ]
+    }
+  ],
+  "colecoes": [
+    {
+      "nome": "Outono/Inverno 2022",
+      "id": 1,
+      "imagem": "https://img.lojasrenner.com.br/item/780046130/large/12.jpg"
+    }
+  ],
+  "categoriasRoupas": [
+    {
+      "id": 1,
+      "categoria": "Camiseta",
+      "imagem": "https://cea.vtexassets.com/assets/vtex.file-manager-graphql/images/7c20fce5-2c59-4ba7-a046-177b64f60610___25a8c0cb6c49aa72ea7f5accf457e0b5.jpg"
+    }
+  ],
+  "carros": [
+    {
+      "id": 1,
+      "marca": 1,
+      "modelo": 1,
+      "ano": 2021,
+      "textoAnuncio": "Argo 1.0",
+      "complementoAnuncio": "Argo Drive 1.0 4p",
+      "quilometragem": 78330,
+      "cambio": "Manual",
+      "cor": "Branco",
+      "combustivel": "Gasolina/Etanol",
+      "categoria": "Hatch",
+      "motor": "1.0",
+      "portas": 4,
+      "finalPlaca": 1,
+      "acessorios": [
+        "Alarme", "Direção elétrica", "Vidros elétricos", "Freio ABS", "Ar-Condicionado", "Computador de bordo", "Sensor de estacionamento", "Airbag duplo"
+      ],
+      "valores": {
+        "compra": 54900,
+        "parcelasMaximas": 24,
+        "jurosMensais": 1.25,
+        "aluguelDia": 72.97,
+        "aluguelMes": 1751.28
+      },
+      "imagens": [
+        "https://localizaseminovos.vtexassets.com/arquivos/ids/70609650-1200-auto?width=1200&height=auto&aspect=true",
+        "https://localizaseminovos.vtexassets.com/arquivos/ids/70609647-1200-auto?width=1200&height=auto&aspect=true",
+        "https://localizaseminovos.vtexassets.com/arquivos/ids/70609653-1200-auto?width=1200&height=auto&aspect=true"
+      ]
+    }
+  ],
+  "modelosDeCarro": [
+    {
+      "id": 1,
+      "modelo": "Argo",
+      "imagem": "https://garagem360.com.br/wp-content/uploads/2022/08/img-design-personalidade-1200x787.jpg"
+    },
+    {
+      "id": 2,
+      "modelo": "Onix",
+      "imagem": "https://quatrorodas.abril.com.br/wp-content/uploads/2022/12/01-galeria-onix-my23-1-e1671886765906.webp"
+    },
+    {
+      "id": 3,
+      "modelo": "Ka Sedan",
+      "imagem": "https://mundodoautomovelparapcd.com.br/wp-content/uploads/2018/07/Ford-Ka-2019-04.jpg"
+    }
+  ],
+  "marcas": [
+    {
+      "id": 1,
+      "marca": "Fiat",
+      "imagem": "https://logodownload.org/wp-content/uploads/2014/05/fiat-logo-21.png"
+    },
+    {
+      "id": 2,
+      "marca": "Chevrolet",
+      "imagem": "https://cdn.freebiesupply.com/logos/large/2x/chevrolet-1-logo-png-transparent.png"
+    },
+    {
+      "id": 3,
+      "marca": "Ford",
+      "imagem": "https://logospng.org/download/ford/logo-ford-512.png"
+    }
+  ],
+  "imoveis": [
+    {
+      "id": 1,
+      "corretor": 1,
+      "anuncio": "Cobertura com 2 dormitórios para alugar",
+      "tipoImovel": 3,
+      "tipoDeVenda": "ambos",
+      "valores": {
+        "compra": 574000,
+        "aluguel": 2000,
+        "condominio": 230,
+        "iptu": 24.25
+      },
+      "estado": "SP",
+      "cidade": "Santo André",
+      "bairro": "Vila Teresinha",
+      "cep": "02853-000",
+      "metragem": 110,
+      "quartos": 2,
+      "banheiros": 3,
+      "vagas": 1,
+      "caracteristicas": [
+        "Área de serviço",
+        "Cozinha",
+        "Interfone",
+        "Portão eletrônico",
+        "Quintal",
+        "Sem condomínio"
+      ],
+      "imagens": [
+        {
+          "caminho": "https://img.kenlo.io/VWRCUkQ2Tnp3d1BJRDBJVe1szkhnWr9UfpZS9ftWwjXgr7v5Znen3XVcMHllDVRJJeIbi3YwVYEtu3hr9%2Bhg5Cg8meZGZpijliKix7zK-OWJqBi1pIn9mZP40vPyQJrn4qwe3a7QMGe%2Bg-9lX9p-aXpGYN58W0TnTqO%2BICcJijWCuWHJbpBEeFRajgY0oC1Z7XKAb6KS9Vp19x2qV87-thPUUqLmK0xELLMNAdsz6EIJ9xa9SUxy8h8d55m-oS7TO7S-K5%2BhxzlXFx5k9oa%2BSqu619jCLJU4Vr0lNm4L5VMZWe0S2-TJT-8%2B5wEDqv3JFhXchgzWgPAoc9j0Qd9Am6AckV7KG7QfvBayztbCjPGsZ0jXYFQ09Lib--CxP-r7H6DseGerj5YM%2BZKWP8RcZ8bkHWlWECw1I3BfqR-k%2BKGd8F8%3D.jpg",
+          "lugar": "Cobertura"
+        },
+        {
+          "caminho": "https://imgs.kenlo.io/VWRCUkQ2Tnp3d1BJRDBJVe1szkhnWr9UfpZS9ftWwjXgr7v5Znen3XVcMHllDVRJJeIbi3YwVYEtu2Fk-OA1yUwur9BIBaKPiy689ZTEwsqw9Faox5rsrbjG8OivY8PYz40QyanTI3iClKpYA9F6b21+NsNjHULNULiyEiZg8xq+mkHmEbQYSHhl5CY8mSlRnVzgd6H30VcO1h70Ft7IhXGKEo-nLRlGMLMNAdsz6EIJ9xa9SUxy8h8d55m-oS7TO7S-K5+hxzlXFx5k9oa+Squ619jCLJU4Vr0lNm4L5VMZWe0S2-TJT-8+5wEDqv3JFhXchgzWgPAoc9j0Qd9Am6AckV7KG7QfvBayztbCjPGsZ0jXYFQ09Lib--CxP-r7H6DseGerj5YM+ZKWP8RcZ8bkHWlWECw1I3BfqR-k+KGd8F8=.jpg",
+          "lugar": "Sala"
+        },
+        {
+          "caminho": "https://imgs.kenlo.io/VWRCUkQ2Tnp3d1BJRDBJVe1szkhnWr9UfpZS9ftWwjXgr7v5Znen3XVcMHllDVRJJeIbi3YwVYEtu0o5y9w+4BskgtsdBOWBrie3gKO-7MyhsF-G15TanKHejPPCXuTXjZ841vXVCWChlrFnZYMMDH9LX8ZQXyyyctyuYSlxnCSWqmicbZVranJtzhppkBNN72ucYYCc-nQR3CCKBqPWry6qUZqjHkFTQPlLANk18QdW9hinR0InpwcW5JO3vSCAaKyyLIOvkiMYDwYu6oa6SeKv15TFJsonDqooL34J41sRFqAe2beFX6J24QkLuOfUB1+EkBnHl+8kYMGwX9ZPn7wFxgbDHeMY4hezlIHP0KWkahzVNFo89byY+vKyOPf1EbSte2+jj5YM+dPIIc0Zaci2AnUHCDR0Yn5R5AC24K+ZvQ==.jpg",
+          "lugar": "Sala"
+        },
+        {
+          "caminho": "https://imgs.kenlo.io/VWRCUkQ2Tnp3d1BJRDBJVe1szkhnWr9UfpZS9ftWwjXgr7v5Znen3XVcMHllDVRJJeIbi3YwVYEtu2Fk-OA1yUwur9BIBaKPiy689ZTEwsqw9Faox5rsrbjG8OivY8PYz40QyanTI3iClKpYA9F6b21+NsNjHULNULiyEiZg8xq+mkHmEbQYSHhl5CY8mSlRnVzgd6H30VcO1h70Ft7IhXGKEo-nLRlGMLMNAdsz6EIJ9xa9SUxy8h8d55m-oS7TO7S-K5+hxzlXFx5k9oa+Squ619jCLJU4Vr0lNm4L5VMZWe0S2-TJT-8+5wEDqv3JFhXchgzWgPAoc9j0Qd9Am6AckV7KG7QfvBayztbCjPGsZ0jXYFQ09Lib--CxP-r7H6DseGerj5YM+ZKWP8RcZ8bkHWlWECw1I3BfqR-k+KGd8F8=.jpg",
+          "lugar": "Sala"
+        },
+        {
+          "caminho": "https://imgs.kenlo.io/VWRCUkQ2Tnp3d1BJRDBJVe1szkhnWr9UfpZS9ftWwjXgr7v5Znen3XVcMHllDVRJJeIbi3YwVYEtu0o5y9w+4BskgtsdBOWBrie3gKO-7MyhsF-G15TanKHejPPCXuTXjZ841vXVCWChlrFnZYMMDH9LX8ZQXyyyctyuYSlxnCSWqmicbZVranJtzhppkBNN72ucYYCc-nQR3CCKBqPWry6qUZqjHkFTQPlLANk18QdW9hinR0InpwcW5JO3vSCAaKyyLIOvkiMYDwYu6oa6SeKv15TFJsonDqooL34J41sRFqAe2beFX6J24QkLuOfUB1+EkBnHl+8kYMGwX9ZPn7wFxgbDHeMY4hezlIHP0KWkahzVNFo89byY+vKyOPf1EbSte2+jj5YM+dPIIc0Zaci2AnUHCDR0Yn5R5AC24K+ZvQ==.jpg",
+          "lugar": "Sala"
+        }
+      ],
+      "sobre": "Possui 02 dormitórios, 01 sala, 01 cozinha, 01 área de serviço, 03 banheiros, cobertura parcialmente coberta. interfone, portão automático e 01 vaga de garagem."
+    }
+  ],
+  "tipos": [
+    {
+      "id": 1,
+      "tipo": "Apartamento"
+    },
+    {
+      "id": 2,
+      "tipo": "Casa"
+    },
+    {
+      "id": 3,
+      "tipo": "Cobertura"
+    }
+  ],
+  "cidades": [
+    {
+      "id":1,
+      "cidade":"Santo André"
+    }
+  ],
+  "bairros": [
+    {
+      "id":1,
+      "bairro":"Vila Teresinha"
+    }
+  ],
+  "corretores": [
+    {
+      "id": 1,
+      "nome": "Fulano de Tal",
+      "codigo": "ABC123",
+      "telefone": "(11) 99009-9090"
+    }
+  ],
+  "noticias": [
+    {
+      "id": 1,
+      "manchete": "Golpistas já distribuem links falsos do Desenrola Brasil no Facebook e WhatsApp",
+      "subtitulo": "Biblioteca de anúncios do Facebook retorna centenas de opções para o termo 'Desenrola', parte deles com links fraudulentos",
+      "dataPublicacao": "2023-07-10T10:45:50.523Z",
+      "corpo": [
+        {
+          "informacao": "Lorem ipsum dolor sit amet, <a href='#'>consectetur adipiscing elit</a>. Nulla aliquam, est vestibulum <b>gravida<b> laoreet, augue dolor pretium risus, ac finibus mauris arcu suscipit urna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce mattis consequat mi, id laoreet sem feugiat eu. Aenean nec tincidunt dui. Cras consequat orci at tincidunt interdum. Aliquam id venenatis urna. Praesent eget accumsan mi, id euismod nunc. Aenean et finibus enim, ut varius felis.",
+          "tipo": "html",
+          "ordem": 1
+        },
+        {
+          "informacao": "https://f.i.uol.com.br/fotografia/2023/07/18/168971485464b700a6ba130_1689714854_3x2_lg.jpg",
+          "tipo": "imagem",
+          "ordem": 4
+        },
+        {
+          "informacao": "Lorem ipsum dolor sit amet, <a href='#'>consectetur adipiscing elit</a>. Nulla aliquam, est vestibulum <b>gravida<b> laoreet, augue dolor pretium risus, ac finibus mauris arcu suscipit urna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce mattis consequat mi, id laoreet sem feugiat eu. Aenean nec tincidunt dui. Cras consequat orci at tincidunt interdum. Aliquam id venenatis urna. Praesent eget accumsan mi, id euismod nunc. Aenean et finibus enim, ut varius felis.",
+          "tipo": "html",
+          "ordem": 3
+        },
+        {
+          "informacao": "https://youtu.be/U2XELiosoWw",
+          "tipo": "youtube",
+          "ordem": 2
+        }
+      ],
+      "autor": 2,
+      "categoria": 1
+    }
+  ],
+  "comentarios": [
+    {
+      "id": 1,
+      "texto": "Lorem ipsum dolor sit amet",
+      "postId": 1,
+      "autor": 1,
+      "data": "2023-07-13T10:45:50.523Z",
+      "like": [1]
+    }
+  ],
+  "categoriasNoticias": [
+    {
+      "id": 1,
+      "categoria": "Cotidiano",
+      "corTexto": "#2E48FF",
+      "corFundo": "#FFFFFF"
+    },
+    {
+      "id": 2,
+      "categoria": "Futebol",
+      "corTexto": "#2E48FF",
+      "corFundo": "#FFFFFF"
+    },
+    {
+      "id": 3,
+      "categoria": "Automobilismo",
+      "corTexto": "#2E48FF",
+      "corFundo": "#FFFFFF"
+    },
+    {
+      "id": 4,
+      "categoria": "Política",
+      "corTexto": "#2E48FF",
+      "corFundo": "#FFFFFF"
+    },
+    {
+      "id": 5,
+      "categoria": "Economia",
+      "corTexto": "#2E48FF",
+      "corFundo": "#FFFFFF"
+    }
+  ],
+  "vagas": [
+    {
+      "id": 1,
+      "vaga": "Gerente de TI",
+      "empresa": 1,
+      "salario": {
+        "min": 15000,
+        "max": 20000
+      },
+      "quantidade": 1,
+      "local": {
+        "estado": "PR",
+        "cidade": "Londrina"
+      },
+      "publicacao": "2023-07-17T12:35:50.523Z",
+      "descricao": "Atividades: Gestão de todo TIME de IT Services (SOC/Service Desk / Especialistas / Projetos); Elaborar o planejamento estratégico de TI; Planejar e administrar os processos de TI garantindo que nossos clientes sejam atendidos de forma rápida e eficiente; Assegurar que a área de IT Services apoie os processos de negócio; Passar feedback para o clientes sobres atendimentos, problemas e melhorias; Conduzir a execução dos projetos dentro do prazo garantindo a satisfação do cliente; Medir, controlar e apresentar para nossos clientes os KPI's; Garantir a segurança da informação e a proteção de dados da nossa empresa e de nossos clientes; Apresentar para a diretoria indicadores de performance da equipe e planos de ação para melhoria contínua; Garantir treinamento e certificações da equipe.Graduação - Tecnologia da Informação ou áreas correlatas Experiências e qualificações: Inglês avançado será um diferencial Experiência em gestão de pessoas Ter experiência na área Ter atuado diretamento com feedback a clientes Treinamento/Certificação: ITIL e CoBIT",
+      "expediente": {
+        "dias": "De segunda a sexta-feira",
+        "inicio": "09:00",
+        "fim": "18:00"
+      },
+      "contratacao": "Prestador de serviços (PJ)",
+      "infosAdicionais": "Nosso cliente é uma empresa especializada em soluções para infraestrutura de TI corporativa, consultoria de TI, Cyber Security, LGPD e Full Outsourcing de TI, localizada em São José dos Pinhais com projeto de expansão para o Sudeste, filiais em operação no Canadá e Perú busca um GERENTE DE TI",
+      "questionario": [
+        {
+          "tipoPergunta": "alternativaUnica",
+          "pergunta": "Quantos anos tem de experiência em TI?",
+          "alternativas": ["-2 anos","2 a 4 anos","5+ anos"]
+        },
+        {
+          "tipoPergunta": "alternativaMultipla",
+          "pergunta": "Quais destes cargos você já trabalhou?",
+          "alternativas": ["Desenvolvedor", "Gerente", "Comercial", "Executivo"]
+        },
+        {
+          "tipoPergunta": "texto",
+          "pergunta": "Quais empresas você já trabalhou na área de TI?",
+          "alternativas": []
+        }
+      ]
+    }
+  ],
+  "categoriasVagas": [
+    {
+      "id": 1,
+      "categoria": "Administrativo",
+      "icone": "https://assets.catho.com.br/app-front-home-prod/public/_next/static/images/icon-a50d8f8149e3678001a945907e23f9b0.png"
+    },
+    {
+      "id": 2,
+      "categoria": "Vendas",
+      "icone": "https://assets.catho.com.br/app-front-home-prod/public/_next/static/images/icon-a50d8f8149e3678001a945907e23f9b0.png"
+    },
+    {
+      "id": 3,
+      "categoria": "Tecnologia",
+      "icone": "https://assets.catho.com.br/app-front-home-prod/public/_next/static/images/icon-a50d8f8149e3678001a945907e23f9b0.png"
+    }
+  ],
+  "empresa": [
+    {
+      "id": 1,
+      "nome": "Empresa de TI",
+      "logo": "https://static.catho.com.br/images/emp/logotipos/609143.gif"
+    }
+  ],
+  "respostasQuestionario": [
+    {
+      "id": 1,
+      "idDaVaga": 1,
+      "idDoUsuario": 1,
+      "respostas": [
+        ["5+ anos"],
+        ["Gerente", "Comercial"],
+        ["Empresa de TI"]
+      ]
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "nomeCompleto": "Matheus M. Pinheiro",
+      "username": "matheusmp",
+      "carrinho": [
+        {
+          "produto": 1,
+          "tamanho": "P",
+          "quantidade": 2
+        }
+      ],
+      "favoritos": [1],
+      "tipo": "cliente"
+    },
+    {
+      "id": 2,
+      "nomeCompleto": "Anderson Dias",
+      "username": "andersonDias",
+      "carrinho": [],
+      "favoritos": [],
+      "tipo": "admin"
+    }
+  ],
+  "fazerLogin": [
+    {
+      "id": 1,
+      "username": "matheusmp",
+      "senha": "123abc",
+      "idUsuario": 1
+    },
+    {
+      "id": 2,
+      "username": "andersonDias",
+      "senha": "123abc",
+      "idUsuario": 2
+    }
+  ],
+  "conteudoSite": {
+    "home": {
+      "textoCategorias": "Explore nossas categorias",
+      "produtosDestaque": [1],
+      "textoDestaque": "Nossos produtos em destaque"
+    },
+    "internaProduto": {
+      "sugestao": "Outros produtos que possa gostar"
+    }
+  }
+}
