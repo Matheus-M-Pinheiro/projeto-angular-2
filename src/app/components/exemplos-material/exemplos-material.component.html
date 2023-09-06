@@ -1,0 +1,18 @@
+<mat-form-field class="example-full-width">
+  <mat-label>Nomes</mat-label>
+  <input type="text" placeholder="Digite um nome" aria-label="Nomes" matInput [(ngModel)]="valorInput"
+    [matAutocomplete]="auto" (keyup)="pressionaTecla()">
+  <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete">
+    <mat-option *ngFor="let pessoa of nomesFiltrado" [value]="pessoa.nome">
+      {{pessoa.nome}} | Idade: {{ pessoa.idade }}
+    </mat-option>
+  </mat-autocomplete>
+</mat-form-field>
+
+<h1>
+  {{ valorInput }}
+</h1>
+
+<button type="button" (click)="abrirModal()">
+  Abrir modal
+</button>

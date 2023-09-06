@@ -11,6 +11,16 @@ import { SidenavComponent } from './components/shared/sidenav/sidenav.component'
 import { TabelaComponent } from './components/shared/tabela/tabela.component';
 import { VagasComponent } from './components/vagas/vagas/vagas.component';
 import { CommonModule } from '@angular/common';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ExemplosMaterialComponent } from './components/exemplos-material/exemplos-material.component';
+import { ModalMaterialComponent } from './components/shared/modal-material/modal-material.component';
+
+// MATERIAL
+import { MatButtonModule } from '@angular/material/button';
+import { MatAutocompleteModule } from '@angular/material/autocomplete';
+import { MatInputModule } from '@angular/material/input';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatDialogModule } from '@angular/material/dialog';
 
 @NgModule({
   declarations: [
@@ -19,7 +29,9 @@ import { CommonModule } from '@angular/common';
     SidenavComponent,
     TabelaComponent,
     VagasComponent,
-    HomeComponent
+    HomeComponent,
+    ExemplosMaterialComponent,
+    ModalMaterialComponent
   ],
   imports: [
     CommonModule,
@@ -27,7 +39,13 @@ import { CommonModule } from '@angular/common';
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    BrowserAnimationsModule,
+    MatButtonModule,
+    MatAutocompleteModule,
+    MatInputModule,
+    MatFormFieldModule,
+    MatDialogModule
   ],
   providers: [],
   bootstrap: [AppComponent]

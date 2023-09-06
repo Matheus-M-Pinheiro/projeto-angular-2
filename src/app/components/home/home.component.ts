@@ -37,6 +37,7 @@ export class HomeComponent implements OnInit {
           icon: 'success',
           confirmButtonText: 'OK!'
         }).then( (result) => {
+          this.lc.set('idUser', String(resp[0].id))
           this.router.navigate(['/vagas/home'])
         })
       } else {
