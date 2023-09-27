@@ -21,6 +21,9 @@ import { MatAutocompleteModule } from '@angular/material/autocomplete';
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatDialogModule } from '@angular/material/dialog';
+import { LancamentosComponent } from './components/jira/lancamentos/lancamentos.component';
+import { MatDatepickerModule } from '@angular/material/datepicker';
+import { MatNativeDateModule } from '@angular/material/core';
 
 @NgModule({
   declarations: [
@@ -31,7 +34,8 @@ import { MatDialogModule } from '@angular/material/dialog';
     VagasComponent,
     HomeComponent,
     ExemplosMaterialComponent,
-    ModalMaterialComponent
+    ModalMaterialComponent,
+    LancamentosComponent,
   ],
   imports: [
     CommonModule,
@@ -45,7 +49,9 @@ import { MatDialogModule } from '@angular/material/dialog';
     MatAutocompleteModule,
     MatInputModule,
     MatFormFieldModule,
-    MatDialogModule
+    MatDialogModule,
+    MatNativeDateModule,
+    MatDatepickerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

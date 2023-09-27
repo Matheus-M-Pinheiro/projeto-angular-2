@@ -1,0 +1,85 @@
+{
+  "colaboradores": [
+    {
+      "id": 1,
+      "nomeCompleto": "Matheus Martins Pinheiro",
+      "ativo": true,
+      "time": 1,
+      "cargo": 1,
+      "apontamentoHoras": [
+        {
+          "projeto": 1,
+          "qtdHoras": 8,
+          "dataLancamento": "2023-09-13T00:00:00.000Z"
+        },
+        {
+          "projeto": 1,
+          "qtdHoras": 8,
+          "dataLancamento": "2023-09-12T00:00:00.000Z"
+        },
+        {
+          "projeto": 1,
+          "qtdHoras": 8,
+          "dataLancamento": "2023-09-11T00:00:00.000Z"
+        },
+        {
+          "projeto": 1,
+          "qtdHoras": 8,
+          "dataLancamento": "2023-09-15T00:00:00.000Z"
+        },
+        {
+          "projeto": 1,
+          "qtdHoras": 8,
+          "dataLancamento": "2023-09-16T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nomeCompleto": "Anderson Dias",
+      "time": 1,
+      "cargo": 2,
+      "apontamentoHoras": []
+    }
+  ],
+  "times": [
+    {
+      "id": 1,
+      "time": "Sharepoint"
+    }
+  ],
+  "cargos": [
+    {
+      "id": 1,
+      "cargo": "Desenvolvedor Sharepoint"
+    },
+    {
+      "id": 2,
+      "cargo": "Gerente de Delivery"
+    }
+  ],
+  "projetos": [
+    {
+      "id": 1,
+      "nome": "ITL0117 - IT Lindos Turma 4"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "colaborador": 1,
+      "email": "matheus.pinheiro@itlean.com.br",
+      "senha": "123abc",
+      "gestor": false,
+      "pfp": ""
+    },
+    {
+      "id": 2,
+      "colaborador": 2,
+      "email": "anderson.dias@itlean.com.br",
+      "senha": "123abc",
+      "gestor": true,
+      "pfp": ""
+    }
+  ]
+}
