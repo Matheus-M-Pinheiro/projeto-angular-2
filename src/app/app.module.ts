@@ -24,6 +24,7 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { LancamentosComponent } from './components/jira/lancamentos/lancamentos.component';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core';
+import { ApontamentoComponent } from './components/jira/apontamento/apontamento.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +37,7 @@ import { MatNativeDateModule } from '@angular/material/core';
     ExemplosMaterialComponent,
     ModalMaterialComponent,
     LancamentosComponent,
+    ApontamentoComponent,
   ],
   imports: [
     CommonModule,

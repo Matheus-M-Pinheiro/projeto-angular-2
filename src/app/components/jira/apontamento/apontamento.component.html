@@ -1,0 +1,35 @@
+<h1>
+  Aponte suas horas
+</h1>
+
+<form [formGroup]="formApontamento">
+
+  <mat-form-field class="example-full-width">
+    <mat-label>Projeto</mat-label>
+    <input type="text" placeholder="Pick one" aria-label="Projeto" matInput formControlName="projeto"
+      [matAutocomplete]="auto" (keyup)="filtrarAutocomplete()">
+    <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete">
+      <mat-option *ngFor="let option of projetosFiltrados" [value]="option.nome">
+        {{option.nome}}
+      </mat-option>
+    </mat-autocomplete>
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width">
+    <mat-label>Horas trabalhadas</mat-label>
+    <input matInput placeholder="Coloque o número de horas. Ex: 8" formControlName="qtdHoras">
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>Data do apontamento</mat-label>
+    <input matInput [matDatepicker]="picker" formControlName="dataApontamento">
+    <mat-hint>MM/DD/YYYY</mat-hint>
+    <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+    <mat-datepicker #picker></mat-datepicker>
+  </mat-form-field>
+
+</form>
+
+<button mat-raised-button color="primary" (click)="fazerApontamento()">
+  Lançar
+</button>

@@ -31,6 +31,11 @@
           "projeto": 1,
           "qtdHoras": 8,
           "dataLancamento": "2023-09-16T00:00:00.000Z"
+        },
+        {
+          "projeto": 3,
+          "qtdHoras": 8,
+          "dataLancamento": "2023-09-26T03:00:00.000Z"
         }
       ]
     },
@@ -62,6 +67,18 @@
     {
       "id": 1,
       "nome": "ITL0117 - IT Lindos Turma 4"
+    },
+    {
+      "id": 2,
+      "nome": "BAU4345 - Melhorias Bauducco Brasil"
+    },
+    {
+      "id": 3,
+      "nome": "VIC - Site Vicunha"
+    },
+    {
+      "id": 4,
+      "nome": "MAR - Intranet Marfrig"
     }
   ],
   "usuarios": [

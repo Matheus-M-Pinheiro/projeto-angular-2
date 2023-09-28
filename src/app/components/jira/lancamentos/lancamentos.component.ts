@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { JiraService } from 'src/app/service/jira.service';
 import { FormGroup, FormControl } from '@angular/forms';
+import { Apontamento } from 'src/app/model/jira/apontamento';
 
 @Component({
   selector: 'app-lancamentos',
@@ -13,7 +14,7 @@ export class LancamentosComponent implements OnInit {
     start: new FormControl<Date | null>(null),
     end: new FormControl<Date | null>(null),
   });
-  apontamentosFiltrados: any[] = []
+  apontamentosFiltrados: Apontamento[] = []
 
   constructor(
     private apiJira: JiraService
@@ -29,7 +30,7 @@ export class LancamentosComponent implements OnInit {
       let apontamentos = colaborador.apontamentoHoras
       console.log( this.range.value.start?.toISOString() )
       console.log( this.range.value.end?.toISOString() )
-      this.apontamentosFiltrados = apontamentos.filter( (apt: any) => {
+      this.apontamentosFiltrados = apontamentos.filter( (apt) => {
         let dataApt = new Date(apt.dataLancamento)
         // Checagem se a varivael não é null
         if( this.range.value.start && this.range.value.end ){
